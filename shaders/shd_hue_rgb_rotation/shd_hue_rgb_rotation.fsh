@@ -4,7 +4,10 @@ varying vec4 v_vColour;
 uniform float shift;
 
 vec3 hueShift(vec3 color) {
-    return color;
+    vec3 K = vec3(0.57735);
+    float cosAngle = cos(shift);
+    float sinAngle = sin(shift);
+    return vec3(color * cosAngle + cross(K, color) * sinAngle + K * dot(K, color) * (1.0 - cosAngle));
 }
 
 void main() {
