@@ -1,0 +1,43 @@
+{
+  "resources": [
+    {"id":{"name":"shd_hue_hsv_conversion","path":"shaders/shd_hue_hsv_conversion/shd_hue_hsv_conversion.yy",},"order":1,},
+    {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},"order":2,},
+    {"id":{"name":"shd_hue_rgb_rotation","path":"shaders/shd_hue_rgb_rotation/shd_hue_rgb_rotation.yy",},"order":7,},
+    {"id":{"name":"_28559972","path":"sprites/_28559972/_28559972.yy",},"order":5,},
+    {"id":{"name":"shd_hue_yiq_conversion","path":"shaders/shd_hue_yiq_conversion/shd_hue_yiq_conversion.yy",},"order":6,},
+    {"id":{"name":"AC483B1B_000006DC","path":"sprites/AC483B1B_000006DC/AC483B1B_000006DC.yy",},"order":4,},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":3,},
+  ],
+  "Options": [
+    {"name":"HTML5","path":"options/html5/options_html5.yy",},
+    {"name":"Linux","path":"options/linux/options_linux.yy",},
+    {"name":"macOS","path":"options/mac/options_mac.yy",},
+    {"name":"Main","path":"options/main/options_main.yy",},
+    {"name":"Windows","path":"options/windows/options_windows.yy",},
+  ],
+  "isDnDProject": false,
+  "isEcma": false,
+  "tutorialPath": "",
+  "configs": {
+    "name": "Default",
+    "children": [],
+  },
+  "RoomOrderNodes": [
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+  ],
+  "Folders": [],
+  "AudioGroups": [
+    {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
+  ],
+  "TextureGroups": [
+    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
+  ],
+  "IncludedFiles": [],
+  "MetaData": {
+    "IDEVersion": "2.3.3.570",
+  },
+  "resourceVersion": "1.4",
+  "name": "Tutorial - Hue Shift Shader",
+  "tags": [],
+  "resourceType": "GMProject",
+}
