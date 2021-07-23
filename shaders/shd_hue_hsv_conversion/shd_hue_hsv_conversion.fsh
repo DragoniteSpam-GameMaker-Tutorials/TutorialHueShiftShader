@@ -23,7 +23,8 @@ vec3 toRGB(vec3 color) {                                                    // h
 vec3 hueShift(vec3 color) {
     vec3 hsv = toHSV(color);
     
-    
+    hsv.x += shift;
+    hsv.x = fract(hsv.x);
     
     return toRGB(hsv);
 }

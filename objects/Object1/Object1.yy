@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "_28559972",
-    "path": "sprites/_28559972/_28559972.yy",
+    "name": "AC483B1B_000006DC",
+    "path": "sprites/AC483B1B_000006DC/AC483B1B_000006DC.yy",
   },
   "solid": false,
   "visible": true,

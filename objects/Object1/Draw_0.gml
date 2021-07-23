@@ -16,7 +16,7 @@ y = 100;
 
 draw_text(x, y - 20, "HSV conversion");
 shader_set(shd_hue_hsv_conversion);
-shader_set_uniform_f(shader_get_uniform(shd_hue_hsv_conversion, "shift"), radtodeg(-shift));
+shader_set_uniform_f(shader_get_uniform(shd_hue_hsv_conversion, "shift"), shift / 6.28);
 draw_self();
 shader_reset();
 
@@ -25,7 +25,7 @@ y = 400;
 
 draw_text(x, y - 20, "RGB rotation");
 shader_set(shd_hue_rgb_rotation);
-shader_set_uniform_f(shader_get_uniform(shd_hue_rgb_rotation, "shift"), -shift);
+shader_set_uniform_f(shader_get_uniform(shd_hue_rgb_rotation, "shift"), shift);
 draw_self();
 shader_reset();
 
@@ -34,6 +34,6 @@ y = 400;
 
 draw_text(x, y - 20, "YIQ conversion");
 shader_set(shd_hue_yiq_conversion);
-shader_set_uniform_f(shader_get_uniform(shd_hue_yiq_conversion, "shift"), shift);
+shader_set_uniform_f(shader_get_uniform(shd_hue_yiq_conversion, "shift"), -shift);
 draw_self();
 shader_reset();
